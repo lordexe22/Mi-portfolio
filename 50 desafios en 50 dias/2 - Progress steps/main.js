@@ -44,7 +44,5 @@ const update = () => {
     });
 }
 
-
 $nextBtn.addEventListener('click',nextClickEvent);
 $prevBtn.addEventListener('click',prevClickEvent);
-

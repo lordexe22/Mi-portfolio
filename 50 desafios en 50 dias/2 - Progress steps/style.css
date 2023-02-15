@@ -4,7 +4,6 @@
   --line-border-fill: #3498db;
   --line-border-empty: #a3a3a3;
   --bg-color:#f1f1f1;
-
 }
 
 body{
@@ -19,14 +18,11 @@ body{
   overflow: hidden;
   flex-direction: column;
   font-family: 'Muli', sans-serif;
-
   background-color: var(--bg-color);
 }
 
 .container{
   padding: 10px;
-  /* border: thin solid red; */
-  /* background-color: #D1D1D1; */
   width: 50vw;
   height: 20vh;
   max-width: 480px;
@@ -35,8 +31,6 @@ body{
 .progress-section{
   position: relative;
   display: flex;
-  /* border: thin solid black; */
-  /* background-color: #BBE; */
   margin-bottom: 8vh;
   justify-content: space-between;
 }
@@ -60,10 +54,6 @@ body{
   transition: 0.3s;
 }
 
-/* .line-container::before{
-  content: '';
-} */
-
 .number{
   display: flex;
   font-family: inherit;
@@ -85,8 +75,6 @@ body{
 .btn-section{
   display: flex;
   justify-content: space-evenly;
-  /* border: thin solid black; */
-  /* background-color: #EBB; */
 }
 
 .btn{
