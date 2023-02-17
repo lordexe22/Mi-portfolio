@@ -1,0 +1,90 @@
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    z-index: -1;
+}
+
+.scroll-menu{
+    display: block;
+    position: fixed;
+    top: -190px;
+    left: -190px;
+    transition: 1s;
+    z-index: 1;
+    width: 350px;
+}
+
+.car{
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    transition: 1s;
+    transform-origin: 10px 10px;
+    background-color: azure;
+    padding: 5em 12em;
+}
+
+.textIcon{
+    color:white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul{
+    position: absolute;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+li:nth-child(1){
+    position: relative;
+    left: 30px;
+}
+li:nth-child(2){
+    position: relative;
+    left: 50px;
+}
+li:nth-child(3){
+    position: relative;
+    left: 70px;
+}
+
+.home, .about, .contact{
+    position: absolute;
+    width: 30px;
+}
+.home{
+    left: -40px;
+    top: -2px;
+}
+.about{
+    left: -40px;
+    top: -3px;
+}
+.contact{
+    left: -40px;
+    top: 2px;
+}
+
+nav{
+    position: fixed;
+    z-index: 3;
+    bottom: 35%;
+    left: -2%;
+    /* top: -250px; */
+    transition: 1s ease-out;
+    transform:translateX(-500px);
+}
+
+
