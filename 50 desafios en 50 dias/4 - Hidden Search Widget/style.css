@@ -1,0 +1,48 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.container{
+    position: relative;
+    transition: all ease-in-out 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 3rem;
+
+}
+
+.loop-icon{
+    position: absolute;
+    width: 2rem;
+    right: 0;
+    margin: 5px;
+    z-index: 1;
+}
+
+.text{
+    transition: all ease-in-out 0.5s;
+    width: 100%;
+    font-size: 1.8rem;
+    justify-content: right;
+
+}
+
+.hidden{
+    width: 42px;
+}
+.displayed{
+    width: 40%;
+}

@@ -1,12 +1,5 @@
 let rotated = false;
 
-
-
-
-
-
-
-
 const animateScrollMenu = (e) => {
     const scrollMenu = document.getElementById('scroll-menu');
     const content = document.getElementById('content');
@@ -25,6 +18,4 @@ const animateScrollMenu = (e) => {
     nav.style.transform = 'translateX(-500px)';
 }
 
-
 window.addEventListener('click',animateScrollMenu);
-
